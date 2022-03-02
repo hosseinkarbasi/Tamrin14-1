@@ -1,4 +1,4 @@
-package com.example.flickerpagination.data
+package searchimage
 
 data class Photos(
     val page: Int,

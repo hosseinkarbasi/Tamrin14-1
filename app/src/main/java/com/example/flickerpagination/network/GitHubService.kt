@@ -1,8 +1,9 @@
 package com.example.flickerpagination.network
 
-import com.example.flickerpagination.data.FlickerResult
+import com.example.flickerpagination.data.pagination.pagination.FlickerResult
 import retrofit2.Call
 import retrofit2.http.*
+import searchimage.SearchImage
 
 interface GitHubService {
 
@@ -15,7 +16,16 @@ interface GitHubService {
         @Query("format") format: String,
         @Query("nojsoncallback") nojsoncallback: String,
         @Query("per_page") per_page: String,
-        @Query("page") page: String,
+        @Query("page") page: String
+    ): Call<FlickerResult>
 
-        ): Call<FlickerResult>
+    @POST("services/rest")
+    fun searchImage(
+        @Query("api_key") apiKey: String,
+        @Query("method") method: String,
+        @Query("text") text: String,
+        @Query("extras") extras: String,
+        @Query("format") format: String,
+        @Query("nojsoncallback") nojsoncallback: String,
+        ): Call<SearchImage>
 }

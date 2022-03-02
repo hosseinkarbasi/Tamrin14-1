@@ -7,9 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.flickerpagination.data.FlickerResult
-import com.example.flickerpagination.data.Photo
-import com.example.flickerpagination.data.Photos
+import com.example.flickerpagination.data.pagination.pagination.Photo
 import com.squareup.picasso.Picasso
 
 class RecyclerAdapter() : RecyclerView.Adapter<RecyclerAdapter.UsersViewHolder>() {
@@ -30,7 +28,6 @@ class RecyclerAdapter() : RecyclerView.Adapter<RecyclerAdapter.UsersViewHolder>(
         }
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UsersViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.show_image, parent, false)
         return UsersViewHolder(view)
@@ -50,8 +47,9 @@ class RecyclerAdapter() : RecyclerView.Adapter<RecyclerAdapter.UsersViewHolder>(
         notifyDataSetChanged()
     }
 
-    fun clear(){
-        list.clear()
-        notifyDataSetChanged()
-    }
+//    @SuppressLint("NotifyDataSetChanged")
+//    fun clear() {
+//        list.clear()
+//        notifyDataSetChanged()
+//    }
 }

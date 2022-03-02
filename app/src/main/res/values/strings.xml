@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FlickerPagination</string>
+    <string name="SearchPhoto">SearchPhoto</string>
+    <string name="Pagination">Pagination</string>
 </resources>

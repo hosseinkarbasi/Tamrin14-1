@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/paginationFragment">
+
+    <fragment
+        android:id="@+id/paginationFragment"
+        android:name="com.example.flickerpagination.Pagination"
+        android:label="PaginationFragment" />
+    <fragment
+        android:id="@+id/searchPhotoFragment"
+        android:name="com.example.flickerpagination.SearchPhoto"
+        android:label="SearchPhotoFragment" />
+</navigation>

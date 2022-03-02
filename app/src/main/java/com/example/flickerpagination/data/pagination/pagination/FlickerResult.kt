@@ -1,4 +1,4 @@
-package com.example.flickerpagination.data
+package com.example.flickerpagination.data.pagination.pagination
 
 data class FlickerResult(
     val photos: Photos,

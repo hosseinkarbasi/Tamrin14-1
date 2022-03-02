@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/drawable/custom_background.xml" value="0.1245" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/pagination.xml" value="0.33" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/search_photo.xml" value="0.25" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/show_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/layout/test.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/FlickerPagination/app/src/main/res/menu/item_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

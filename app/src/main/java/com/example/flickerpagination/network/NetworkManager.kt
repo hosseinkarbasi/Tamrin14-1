@@ -26,6 +26,6 @@ object NetworkManager {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    var service = retrofit.create(GitHubService::class.java)
+    var service: GitHubService = retrofit.create(GitHubService::class.java)
 
 }
